@@ -8,8 +8,7 @@
 
 :root {
    font-family: "Outfit", sans-serif;
-   --color-primary: #F84565;
-   --color-primary-dull: #D63854;
+   
    scrollbar-width: thin;
    scrollbar-color: #787777 #1e1e1e;
 }
@@ -21,4 +20,8 @@ body {
    
 }
 
+@theme {
+  --color-primary: #F84565;
+  --color-primary-dull: #D63854;
+}
 
